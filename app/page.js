@@ -28,9 +28,9 @@ export default function Home() {
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/2 mb-4 items-center justify-center  flex">
           <div>
               <div className=''>
-                <h1 className='font-Jost-ExtraBold xl:text-4xl text-white'>Hello, I`m a</h1>
-                <h1 className='font-Jost-ExtraBold xl:text-4xl text-white'>UX/UI Designer & </h1>
-                <h1 className='font-Jost-Regular xl:text-4xl text-white'> tulum</h1>
+                <h1 className='font-Jost-ExtraBold xl:text-4xl text-white'>Hello, I`m a Thomas</h1>
+                <h1 className='font-Jost-ExtraBold xl:text-4xl text-white'>Developper Web & Mobile</h1>
+                <h1 className='font-Jost-Regular xl:text-4xl text-white'>Webdesigner</h1>
               </div>
               <div class="flex mt-10 w-full">
                 <div className="w-1/2 sm:w-full pr-4 rounded-xl bg-main-blue h-12 flex items-center justify-center mr-3">
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
       </div>
       <div className=''>
-        <h1 className='font-Jost-Light text-gray-100 xl:text-4xl '>Mulan tulum</h1>
+        <h1 className='font-Jost-Light text-gray-100 xl:text-4xl '>Thomas Ladouyou</h1>
         <p className='font-Jost-BoldItalic text-white text-xs xl:text-xl mt-5 lg:mt-10'>
         is simply dummy text of the printing and typesetting industry. 
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -116,8 +116,8 @@ export default function Home() {
       <div className=' flex flex-wrap justify-between'>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-40  m-2 rounded-xl bg-dark-full">
           <div class=" rounded-xl p-5" style={{height:'30%' }}>
-          <h1 className="text-left text-white font-Jost-light"> IT2School</h1>
-          <h1 className="text-left text-white font-Jost-ExtraBold text-xl">tulum</h1>
+          <h1 className="text-left text-white font-Jost-light"> LinkedIn</h1>
+          <h1 className="text-left text-white font-Jost-ExtraBold text-xl"> Ange Thomas</h1>
           <div className='flex justify-between mt-4 '>
             <div className='h-12 w-5/6 mr-2 rounded-xl flex items-center justify-between pl-4 pr-4' style={{boxShadow:'0px 0px 10px rgba(121, 150, 252, 0.15)'}}>
               <p className="text-left text-white font-Jost-Regular text-xl mr-2">LinkedIn</p>
@@ -131,8 +131,8 @@ export default function Home() {
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-40  m-2 rounded-xl bg-dark-full">
           <div class=" rounded-xl p-5" style={{height:'30%' }}>
-          <h1 className="text-left text-white font-Jost-light"> Space</h1>
-          <h1 className="text-left text-white font-Jost-ExtraBold text-xl">An Der</h1>
+          <h1 className="text-left text-white font-Jost-light">Telegram</h1>
+          <h1 className="text-left text-white font-Jost-ExtraBold text-xl">Ange Thomas</h1>
           <div className='flex justify-between mt-4 '>
             <div className='h-12 w-5/6 mr-2 rounded-xl flex items-center justify-between pl-4 pr-4' style={{boxShadow:'0px 0px 10px rgba(121, 150, 252, 0.15)'}}>
               <p className="text-left text-white font-Jost-Regular text-xl mr-2">Telegram</p>
@@ -156,18 +156,11 @@ export default function Home() {
     </div>
     <div className=' flex flex-wrap justify-between bg-dark-full pb-10 mt-16 rounded-t-xl'>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/4 mb-4 h-40  pl-20 pt-5  m-2 rounded-xl">
-        <h1 className="text-left text-white font-Jost-ExtraBold text-xl">Paris, France</h1>
-        <h1 className="text-left text-white font-Jost-ExtraBold text-xl mt-10">+44 7360 784977</h1>
-        <h1 className="text-left text-white font-Jost-ExtraBold text-xl mt-10">tulum.frnet</h1>
+        <h1 className="text-left text-white font-Jost-ExtraBold text-xl">Paris,France</h1>
+        <h1 className="text-left text-white font-Jost-ExtraBold text-xl mt-10">+33 7360 784977</h1>
+        <h1 className="text-left text-white font-Jost-ExtraBold text-xl mt-10">ladouyouthomas.net </h1>
         </div>
-        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/5  mb-4 h-40  pl-20 pt-5  m-2 rounded-xl">
-          <div className=''>
-              <h1 className="text-left text-white font-Jost-ExtraBold text-xl">Paris, France</h1>
-              <h1 className="text-left text-white font-Jost-ExtraBold text-xl mt-10">+44 7360 784977</h1>
-              <h1 className="text-left text-white font-Jost-ExtraBold text-xl mt-10">tulum.frnet</h1>
-          </div>
-              
-        </div>
+        
       </div>
     </div>
      
