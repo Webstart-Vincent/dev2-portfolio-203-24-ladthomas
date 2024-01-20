@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2D2D2D;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  @font-face {
+    font-family: "Jost-Regular";
+    src: local("Jost-Regular"),
+     url("../fonts/Jost-Regular.ttf") format("truetype");
+    }
+  @font-face {
+      font-family: "Jost-ExtraBold";
+      src: local("Jost-ExtraBold"),
+       url("../fonts/Jost-ExtraBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Jost-Light";
+    src: local("Jost-Light"),
+     url("../fonts/Jost-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Jost-BoldItalic";
+    src: local("Jost-BoldItalic"),
+     url("../fonts/Jost-BoldItalic.ttf") format("truetype");
+  }
+  
+  .font-Jost-Regular {
+    font-family: "Jost-Regular";
+  }
+  .font-Jost-ExtraBold {
+    font-family: "Jost-ExtraBold";
+  }
+  .font-Jost-Light {
+    font-family: "Jost-Light";
+  }
+  .font-Jost-BoldItalic {
+    font-family: "Jost-BoldItalic";
+  }
+  /*.bg-dark-full{
+    background-color: #414141;
+  }*/
+  /*.bg-main-blue{
+    background-color: #7996FC;
+  }*/
+  /*.text-fade {
+    color: '#C9C9C9'
+  }*/
