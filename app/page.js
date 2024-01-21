@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <div className="flex flex-wrap">
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/2 mb-4 items-center justify-center  flex">
-          <Image src={require('../assets/images/imag1.png')} style={{height:'100%',width:'90%',objectFit:'contain'}} />
+          <Image src={require('../assets/images/images1.png')} style={{height:'100%',width:'90%',objectFit:'contain'}} />
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/2 mb-4 items-center justify-center  flex">
           <div>
@@ -65,7 +65,7 @@ export default function Home() {
       <div className=' flex flex-wrap justify-between'>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
           
-          <div class="items-center justify-center flex m-2 rounded-xl" style={{backgroundImage: `url(/Dribbble1.png)`,backgroundPosition:'center',height:'85%' }}>
+          <div class="items-center justify-center flex m-2 rounded-xl" style={{backgroundImage: `url(../assets/images/Dribbble1.png)`,backgroundPosition:'center',height:'85%' }}>
 
           </div>
           <p className="text-center text-white font-Jost-ExtraBold">App Design</p>
