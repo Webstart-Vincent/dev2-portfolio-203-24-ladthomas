@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import arrow from '@/assets/images/Arrow.svg'
+/*import arrow from '@/assets/images/Arrow.svg'
 import telegram from '@/assets/images/telegram.svg'
 import  arrowlittle from '@/assets/images/Arrow-little.svg'
-import telephone from '@/assets/images/telephone-call1.svg'
+import telephone from '@/assets/images/telephone-call1.svg'*/
 
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <div className="flex flex-wrap">
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/2 mb-4 items-center justify-center  flex">
-          <Image src={require('../assets/images/images1.png')} style={{height:'100%',width:'90%',objectFit:'contain'}} />
+          <Image src="/images/images1.png" width={450} height={550}/>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/2 mb-4 items-center justify-center  flex">
           <div>
@@ -35,17 +35,16 @@ export default function Home() {
               <div class="flex mt-10 w-full">
                 <div className="w-1/2 sm:w-full pr-4 rounded-xl bg-main-blue h-12 flex items-center justify-center mr-3">
                   <a className='text-white m-5 font-Jost-Regular text-xl'>Hire me</a>
-                  <Image src={arrow} />
+                  <Image src="/images/Arrow.svg" width={40} height={50}/>
                 </div>
                 <div className="w-1/2 sm:w-full  pr-4 md:w-full rounded-xl bg-dark-full h-12 flex items-center justify-center">
-                  <a className='text-white m-5 font-Jost-Regular text-xl'>Portfolio</a>
-                  <Image src={arrow} />
+                <Image src="/images/Arrow.svg" width={40} height={50}/>
                 </div>
               </div>
               <div className="w-full mt-5 md:w-full pr-4 rounded-xl bg-dark-full h-12 flex items-center justify-center mr-3">
-                <Image src={telegram} />
+              <Image src="/images/telegram.svg" width={20} height={30}/>
                 <a className='text-white m-5 font-Jost-Regular text-xl'>Get in touch by Telegram</a>
-                <Image src={arrowlittle} />
+                <Image src="/images/Arrow.svg" width={40} height={50}/>
               </div>
           </div>
         </div>
@@ -65,7 +64,7 @@ export default function Home() {
       <div className=' flex flex-wrap justify-between'>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
           
-          <div class="items-center justify-center flex m-2 rounded-xl" style={{backgroundImage: `url(../assets/images/Dribbble1.png)`,backgroundPosition:'center',height:'85%' }}>
+          <div class="items-center justify-center flex m-2 rounded-xl" style={{backgroundImage: `url(../public/images/BehanceS.png)`,backgroundPosition:'center',height:'85%' }}>
 
           </div>
           <p className="text-center text-white font-Jost-ExtraBold">App Design</p>
@@ -95,19 +94,19 @@ export default function Home() {
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/6 mb-4  m-2 rounded-xl">
           <div class="items-center justify-center flex m-2 rounded-xl  bg-dark-full h-12" style={{width:'100%' }}>
             <p className="text-center text-white font-Jost-ExtraBold mr-2">Dribbble</p>
-            <Image src={arrow} />
+            <Image src="/images/Arrow.svg" width={40} height={50}/>
           </div>
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/6 mb-4  m-2 rounded-xl">
           <div class="items-center justify-center flex m-2 rounded-xl  bg-main-blue h-12" style={{width:'100%' }}>
             <p className="text-center text-white font-Jost-ExtraBold mr-2 font-bold">Behance</p>
-            <Image src={arrow} />
+            <Image src="/images/Arrow.svg" width={40} height={50}/>
           </div>
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/6 mb-4  m-2 rounded-xl">
           <div class="items-center justify-center flex m-2 rounded-xl  bg-dark-full h-12" style={{width:'100%' }}>
             <p className="text-center text-white font-Jost-ExtraBold mr-2">Figma files</p>
-            <Image src={arrow} />
+            <Image src="/images/Arrow.svg" width={40} height={50}/>
           </div>
         </div>
       </div>
@@ -121,10 +120,10 @@ export default function Home() {
           <div className='flex justify-between mt-4 '>
             <div className='h-12 w-5/6 mr-2 rounded-xl flex items-center justify-between pl-4 pr-4' style={{boxShadow:'0px 0px 10px rgba(121, 150, 252, 0.15)'}}>
               <p className="text-left text-white font-Jost-Regular text-xl mr-2">LinkedIn</p>
-              <Image src={arrow} />
+              <Image src="/images/Arrow.svg" width={40} height={50}/>
             </div>
             <div className='h-12 w-1/6 rounded-xl flex items-center justify-center bg-main-blue'>
-              <Image src={telephone} />
+            <Image src="/images/telephone-call1.svg" width={30} height={40}/>
             </div>
           </div>
           </div>
@@ -136,10 +135,10 @@ export default function Home() {
           <div className='flex justify-between mt-4 '>
             <div className='h-12 w-5/6 mr-2 rounded-xl flex items-center justify-between pl-4 pr-4' style={{boxShadow:'0px 0px 10px rgba(121, 150, 252, 0.15)'}}>
               <p className="text-left text-white font-Jost-Regular text-xl mr-2">Telegram</p>
-              <Image src={arrow} />
+              <Image src="/images/Arrow.svg" width={40} height={50}/>
             </div>
             <div className='h-12 w-1/6 rounded-xl flex items-center justify-center bg-main-blue'>
-              <Image src={telephone} />
+            <Image src="/images/telephone-call1.svg" width={30} height={40}/>
             </div>
           </div>
           </div>
