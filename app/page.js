@@ -64,21 +64,23 @@ export default function Home() {
       <div className=' flex flex-wrap justify-between'>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
           
-          <div class="items-center justify-center flex m-2 rounded-xl" style={{backgroundImage: `url(../public/images/BehanceS.png)`,backgroundPosition:'center',height:'85%' }}>
+          <div class="items-center justify-center flex m-2 rounded-xl">
+            <Image src ="/images/BehanceS.png" width={300} height={200}/>
 
           </div>
           <p className="text-center text-white font-Jost-ExtraBold">App Design</p>
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
 
-          <div class="items-center justify-center flex m-2 rounded-xl" style={{backgroundImage: `url(/BehanceTravel1.png)`,backgroundPosition:'center',height:'85%' }}>
-
+          <div class="items-center justify-center flex m-2 rounded-xl"> 
+          <Image src="/images/BehanceTravel1.png" width={300} height={200}/>
           </div>
           <p className="text-center text-white font-Jost-ExtraBold">Browse Service</p>
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
 
-          <div class="items-center justify-center flex m-2 rounded-xl" style={{backgroundImage: `url(/BehanceS.png)`,backgroundPosition:'center',height:'85%' }}>
+          <div class="items-center justify-center flex m-2 rounded-xl"> 
+          <Image src="/images/BehanceS.png" width={300} height={200}/>
 
           </div>
           <p className="text-center text-white font-Jost-ExtraBold">Web Design</p>
@@ -87,24 +89,24 @@ export default function Home() {
 
       <div className=' flex flex-wrap justify-between'>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/6 mb-4  m-2 rounded-xl">
-          <div class="items-center justify-center flex m-2 rounded-xl h-12" style={{width:'100%' }}>
+          <div class="items-center justify-center flex m-2 rounded-xl h-12 w-full">
             <p className="text-center text-white font-Jost-ExtraBold">See more</p>
           </div>
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/6 mb-4  m-2 rounded-xl">
-          <div class="items-center justify-center flex m-2 rounded-xl  bg-dark-full h-12" style={{width:'100%' }}>
+          <div class="items-center justify-center flex m-2 rounded-xl  bg-dark-full h-12 w-full">
             <p className="text-center text-white font-Jost-ExtraBold mr-2">Dribbble</p>
             <Image src="/images/Arrow.svg" width={40} height={50}/>
           </div>
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/6 mb-4  m-2 rounded-xl">
-          <div class="items-center justify-center flex m-2 rounded-xl  bg-main-blue h-12" style={{width:'100%' }}>
+          <div class="items-center justify-center flex m-2 rounded-xl  bg-main-blue h-12 w-full">
             <p className="text-center text-white font-Jost-ExtraBold mr-2 font-bold">Behance</p>
             <Image src="/images/Arrow.svg" width={40} height={50}/>
           </div>
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/6 mb-4  m-2 rounded-xl">
-          <div class="items-center justify-center flex m-2 rounded-xl  bg-dark-full h-12" style={{width:'100%' }}>
+          <div class="items-center justify-center flex m-2 rounded-xl  bg-dark-full h-12 w-full">
             <p className="text-center text-white font-Jost-ExtraBold mr-2">Figma files</p>
             <Image src="/images/Arrow.svg" width={40} height={50}/>
           </div>
