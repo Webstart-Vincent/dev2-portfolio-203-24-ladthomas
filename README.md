@@ -35,14 +35,15 @@ Nous recommandons de démarrer une nouvelle application Next.js en utilisant ```
 ## Utilisation
 
 - Create Next App
-npx create-next-app@latest
+```npx create-next-app@latest```
 ### ou
-yarn create next-app
+```yarn create next-app```
 ### ou 
-pnpm create next-app
+```pnpm create next-app```
 
 - Ouvrir un projet
-npm run dev
+
+```npm run dev```
 
 ## Construit avec
 - [x] Tailwind
@@ -51,6 +52,8 @@ npm run dev
 - [ ] Python
 - [ ] C#
 - [ ] Css
+- [x] Js
+
 
 
 
