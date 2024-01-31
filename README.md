@@ -20,39 +20,59 @@
 
 ## Installation
 
-[Étapes avec exemples des commandes à lancer pour installer le projet en local]
+Nous recommandons de démarrer une nouvelle application Next.js en utilisant ```create-next-app```, qui met tout en place automatiquement pour vous. Pour créer un projet, exécutez :
+```npx create-next-app@latest```
+What is your project named? my-app
+Would you like to use TypeScript? No / Yes
+Would you like to use ESLint? No / Yes
+Would you like to use Tailwind CSS? No / Yes
+Would you like to use `src/` directory? No / Yes
+Would you like to use App Router? (recommended) No / Yes
+Would you like to customize the default import alias (@/*)? No / Yes
+What import alias would you like configured? @/*
+
+
+
+
+- [ ]
 
 ## Utilisation
 
-[### Sous-titre + description avec exemple des commandes à lancer pour l'ensemble des actions disponibles à l'utilisation dans un mode de développement]
+- Create Next App
+npx create-next-app@latest
+# ou
+yarn create next-app
+# ou
+pnpm create next-app
 
+- Ouvrir un projet
+npm run dev
 
 ## Construit avec
+- [x] Tailwind
+- [x] Next.js
+- [x] Html
+- [ ] Python
+- [ ] C#
+- [ ] Css
+- [x] 
+- [x] 
 
 ### Langages & Frameworks
 
-[Liste de tout ce qui permet la confection du projet avec description + lien vers la documentation]
+- [x] Tailwind
 
 
 #### Déploiement
 
-[Liste de tout ce qui permet le déploiement du projet avec description + lien vers la documentation et mise en avant des comptes, organisations et variables]
+- Netlify
 
 
 ## Gestion des versions
 
-Afin de maintenir un cycle de publication claire et de favoriser la rétrocompatibilité, la dénomination des versions suit la spécification décrite par la [Gestion sémantique de version](https://semver.org/lang/fr/)
 
-Les versions disponibles ainsi que les journaux décrivant les changements apportés sont disponibles depuis [la page des Releases][mettre le lien ici].
-
+Les versions disponibles ainsi que les journaux décrivant les changements apportés sont disponibles depuis [lien de la pages](https://meek-moonbeam-d2cb3d.netlify.app/)
 
 
 
 
-
-
-
-
-
-
-lien site : https://meek-moonbeam-d2cb3d.netlify.app/
