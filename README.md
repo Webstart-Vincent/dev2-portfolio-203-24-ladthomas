@@ -24,12 +24,19 @@ Nous recommandons de démarrer une nouvelle application Next.js en utilisant ```
 ```npx create-next-app@latest```
 
 >What is your project named? my-app &nbsp;
+
 >Would you like to use TypeScript? No / Yes &nbsp;
+
 >Would you like to use ESLint? No / Yes &nbsp;
+
 >Would you like to use Tailwind CSS? No / Yes &nbsp;
+
 >Would you like to use `src/` directory? No / Yes &nbsp;
+
 >Would you like to use App Router? (recommended) No / Yes &nbsp;
+
 >Would you like to customize the default import alias (@/*)? No / Yes &nbsp;
+
 >What import alias would you like configured? @/* &nbsp;
 
 ## Utilisation
