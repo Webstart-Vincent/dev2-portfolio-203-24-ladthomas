@@ -2,7 +2,7 @@
 
 ## À propos
 
-[Courte description à propos de pourquoi le projet existe]
+[]
 
 ## Table des matières
 
@@ -16,21 +16,21 @@
 
 ## Prérequis
 
-[Liste de tous les éléments nécessaires pour le bon fonctionnement du projet avec description + lien vers la documentation]
+[]
 
 ## Installation
 
 Nous recommandons de démarrer une nouvelle application Next.js en utilisant ```create-next-app```, qui met tout en place automatiquement pour vous. Pour créer un projet, exécutez :
 ```npx create-next-app@latest```
 
->What is your project named? my-app
->Would you like to use TypeScript? No / Yes
->Would you like to use ESLint? No / Yes
->Would you like to use Tailwind CSS? No / Yes
->Would you like to use `src/` directory? No / Yes
->Would you like to use App Router? (recommended) No / Yes
->Would you like to customize the default import alias (@/*)? No / Yes
->What import alias would you like configured? @/*
+>What is your project named? my-app &nbsp;
+>Would you like to use TypeScript? No / Yes &nbsp;
+>Would you like to use ESLint? No / Yes &nbsp;
+>Would you like to use Tailwind CSS? No / Yes &nbsp;
+>Would you like to use `src/` directory? No / Yes &nbsp;
+>Would you like to use App Router? (recommended) No / Yes &nbsp;
+>Would you like to customize the default import alias (@/*)? No / Yes &nbsp;
+>What import alias would you like configured? @/* &nbsp;
 
 ## Utilisation
 
