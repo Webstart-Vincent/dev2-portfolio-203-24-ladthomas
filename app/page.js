@@ -7,16 +7,7 @@ export default function Home() {
     
     <div>
       <div className='ml-5 mr-5 lg:ml-20 lg:mr-20'>
-      <div className='items-center justify-center flex invisible lg:visible'>
-        <div className='justify-between flex'>
-        <Link href={"/"} className='text-white m-5 font-Jost-Regular sm:text-sm md:w-1/3 lg:w-1/4 xl:text-xl '>
-           About
-        </Link>
-        <Link href={"/"} className='text-white m-5 font-Jost-Regular sm:text-sm md:w-1/3 lg:w-1/4 xl:text-xl '>Portfolio</Link>
-        <Link href={"/"} className='text-white m-5 font-Jost-Regular sm:text-sm md:w-1/3 lg:w-1/4 xl:text-xl '>Reference</Link>
-        <Link href={"/"} className='text-white m-5 font-Jost-Regular sm:text-sm md:w-1/3 lg:w-1/4 xl:text-xl '>Contact</Link>
-        </div>
-      </div>
+    
       <div className="flex flex-wrap">
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/2 mb-4 items-center justify-center  flex">
           <Image src="/images/images1.png" width={450} height={550}/>
@@ -47,7 +38,7 @@ export default function Home() {
       </div>
       <div className=''>
         <h1 className='font-Jost-Light text-gray-100 xl:text-4xl '>Thomas Ladouyou</h1>
-        <p className='font-Jost-BoldItalic text-white text-xs xl:text-xl mt-5 lg:mt-10'>
+        <p className='font-Jost-BoldItalic text-white text-xs xl:text-xl mt-5 lg:mt-10 text-center'>
         is simply dummy text of the printing and typesetting industry. 
         Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
