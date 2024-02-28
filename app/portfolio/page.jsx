@@ -19,10 +19,12 @@ export default function Home() {
             <p className="text-center text-white font-Jost-ExtraBold">App Design</p>
           </div>
           <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
-  
+          <Link href='/detail'>
+
             <div class="items-center justify-center flex m-2 rounded-xl"> 
             <Image src="/images/BehanceTravel1.png" width={300} height={200}/>
             </div>
+            </Link>
             <p className="text-center text-white font-Jost-ExtraBold">Browse Service</p>
           </div>
           <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
