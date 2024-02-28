@@ -16,8 +16,8 @@ export default function detail() {
           <div>
               <div className=''>
                 <h1 className='font-Jost-ExtraBold xl:text-2xl text-white '>Lorem Ipsum est simplement du faux texte employé dans</h1>
-                <h1 className='font-Jost-ExtraBold xl:text-2xl text-white'> la source incontestable du Lorem I "De Finibus Bonorum et Malorum" </h1>
-                <h1 className='font-Jost-Regular xl:text-2xl text-white'> la source incontestable du Lorem Ipsum. Il pro" </h1>
+                <h1 className='font-Jost-ExtraBold xl:text-2xl text-white'> la source incontestable du Lorem I De Finibus Bonorum et Malorum </h1>
+                <h1 className='font-Jost-Regular xl:text-2xl text-white'> la source incontestable du Lorem Ipsum. Il pro </h1>
               </div>
               <div className="w-full mt-5 md:w-full pr-4 rounded-xl bg-dark-full h-12 flex items-center justify-center mr-3">
               <Image src="/images/telegram.svg" width={20} height={30}/>
