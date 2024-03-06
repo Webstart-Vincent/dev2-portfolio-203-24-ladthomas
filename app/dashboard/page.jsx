@@ -6,7 +6,7 @@ const Dashboard = () => {
 
   // Vérifier si la session est en cours de chargement
   if (status === 'loading') {
-    return <p>Chargement en cours...</p>;
+    return <p>Loading</p>;
   }
 
   // Vérifier si la session est définie
@@ -15,8 +15,8 @@ const Dashboard = () => {
     // Afficher le contenu du tableau de bord
     return (
       <>
-        <h1>Tableau de bord</h1>
-        <p>Utilisateur : {username !== undefined ? username : 'Pas d\'utilisateur'}</p>
+        <h1>Dashboard</h1>
+        <p>User : {username !== undefined ? username : ' '}</p>
       </>
     );
   } else {
@@ -25,7 +25,7 @@ const Dashboard = () => {
       window.location.href = '/';
     }
     // En attendant la redirection, afficher un contenu ou une page de chargement
-    return <p>Redirection vers la page d'accueil...</p>;
+    return <p>Redirection</p>;
   }
 };
 
