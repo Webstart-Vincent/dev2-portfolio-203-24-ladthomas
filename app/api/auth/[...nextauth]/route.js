@@ -29,7 +29,6 @@ const authOptions = {
   callbacks: {
 
     async signIn({ user: { email } }) {
-      // Liste des emails autorisés
       const allowedEmails = [process.env.EMAIL_ADMIN, "caronnet@gmail.com"];
       return allowedEmails.includes(email);
     },
