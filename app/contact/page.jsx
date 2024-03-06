@@ -36,7 +36,7 @@ function ContactPage() {
                   </div>
                   <div class="xl:w-1/3 w-full mr-auto bg-gray-400 h-12 items-center justify-between pl-10 pr-10 flex bg-main-blue rounded-xl">
                     <Image src="/images/telegram.svg"  width={40} height={50}/>                  
-                    <h1 className='sm:text-xl  md:text-sm  lg:text-xl  xl:text-xl  text-white text-center ml-2'>Get in touch by Telegram</h1>
+                    <h1 className="sm:text-xl  md:text-sm  lg:text-xl  xl:text-xl  text-white text-center ml-2">Get in touch by Telegram</h1>
                     <Image src="/images/Arrow.svg"  width={40} height={50} />
                   </div>
                 </div>
