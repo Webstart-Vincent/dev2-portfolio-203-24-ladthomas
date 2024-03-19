@@ -1,5 +1,5 @@
-import NextAuth from 'next-auth'
 
+import NextAuth from 'next-auth'
 import GoogleProvider from 'next-auth/providers/google'
 
 
@@ -29,14 +29,15 @@ const authOptions = {
   callbacks: {
 
     async signIn({ user: { email } }) {
-      const allowedEmails = [process.env.EMAIL_ADMIN, "caronnet@gmail.com"];
+      // Liste des emails autorisés
+      const allowedEmails = [process.env.EMAIL_ADMIN,"caronnet@gmail.com"];
       return allowedEmails.includes(email);
     },
 
     async redirect({ url, baseUrl }) {
-
+      
       return baseUrl + '/dashboard'
-
+      
     },
 
     async session({ session }) {
@@ -55,4 +56,6 @@ const handler = NextAuth(authOptions)
 
 
 
-export { handler as GET, handler as POST, authOptions } 
+export { handler as GET, handler as POST
+  // , authOptions 
+}
