@@ -11,15 +11,16 @@ export default function Home() {
         <h1 className='font-Jost-ExtraBold text-gray-100 xl:text-4xl mt-16 mb-5'>Portfolio</h1>
         <div className=' flex flex-wrap justify-between'>
           <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
-            
+          <Link href='/works/projet1'>
             <div class="items-center justify-center flex m-2 rounded-xl">
               <Image src ="/images/BehanceS.png" width={300} height={200}/>
   
             </div>
+            </Link>
             <p className="text-center text-white font-Jost-ExtraBold">App Design</p>
           </div>
           <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
-          <Link href='/detail'>
+          <Link href='/works/'>
 
             <div class="items-center justify-center flex m-2 rounded-xl"> 
             <Image src="/images/BehanceTravel1.png" width={300} height={200}/>
@@ -28,37 +29,19 @@ export default function Home() {
             <p className="text-center text-white font-Jost-ExtraBold">Browse Service</p>
           </div>
           <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
-  
+          <Link href='/works/projet2'>
             <div class="items-center justify-center flex m-2 rounded-xl"> 
-            <Image src="/images/BehanceS.png" width={300} height={200}/>
+            <Image src="/images/Dribbble1.png" width={300} height={200}/>
   
             </div>
+            </Link>
             <p className="text-center text-white font-Jost-ExtraBold">Web Design</p>
           </div>
         </div>
         <div className=' flex flex-wrap justify-between'>
-          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
-            
-            <div class="items-center justify-center flex m-2 rounded-xl">
-              <Image src ="/images/BehanceS.png" width={300} height={200}/>
-  
-            </div>
-            <p className="text-center text-white font-Jost-ExtraBold">App Design</p>
-          </div>
+        
           <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
   
-            <div class="items-center justify-center flex m-2 rounded-xl"> 
-            <Image src="/images/BehanceTravel1.png" width={300} height={200}/>
-            </div>
-            <p className="text-center text-white font-Jost-ExtraBold">Browse Service</p>
-          </div>
-          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-3/12 mb-4 h-64 m-2 rounded-xl">
-  
-            <div class="items-center justify-center flex m-2 rounded-xl"> 
-            <Image src="/images/BehanceS.png" width={300} height={200}/>
-  
-            </div>
-            <p className="text-center text-white font-Jost-ExtraBold">Web Design</p>
           </div>
         </div>
   
