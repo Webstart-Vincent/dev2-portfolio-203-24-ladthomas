@@ -10,7 +10,7 @@ function ContactPage() {
     
         <div>
               <h1 className='text-4xl text-white text-center'>Contact</h1>
-              <p className='text-xl text-white text-center font-Jost-Regular ml-30 py-3'>Any question or remark? just write us a message.</p>
+              <p className='text-xl text-white text-center font-Jost-Regular ml-30 py-3'>Any question or remark ? just write us a message.</p>
                 <div class="flex flex-wrap mt-10">
                   <div class="w-full xl:w-1/3 ml-auto  h-12 xl:mr-4 items-center pl-4 flex" style={{backgroundColor:'#C4C4C4'}}>
                       <input type="text" placeholder="First name" class="" style={{backgroundColor:'#C4C4C4'}}/>
@@ -19,7 +19,7 @@ function ContactPage() {
                       <input type="text" placeholder="Last name" class="" style={{backgroundColor:'#C4C4C4'}}/>
                   </div>
                 </div>
-                <div class="flex flex xl:justify-center xl:mt-4">
+                <div class="flex xl:justify-center xl:mt-4">
                   <div class="bg-gray-500 h-12 flex items-center pl-5" style={{width:'68%',backgroundColor:'#C4C4C4'}}>
                     <input type="text" placeholder="Last name" class="" style={{backgroundColor:'#C4C4C4'}}/>
                   </div>
@@ -28,7 +28,7 @@ function ContactPage() {
                   <div class="w-1/3 ml-auto  h-12 mr-4 items-center pl-4 flex">
                   </div>
                   <div class="w-full xl:w-1/3 mr-auto bg-gray-400 h-12 items-center pl-4 flex" style={{backgroundColor:'#C4C4C4'}}>
-                      <input type="text" placeholder="+90" class="" style={{backgroundColor:'#C4C4C4'}}/>
+                      <input type="text" placeholder="+33" class="" style={{backgroundColor:'#C4C4C4'}}/>
                   </div>
                 </div>
                 <div class="flex flex-wrap mt-10">
