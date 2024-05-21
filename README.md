@@ -74,7 +74,7 @@ Nous recommandons de démarrer une nouvelle application Next.js en utilisant ```
 
 ## Gestion des versions
 
-Les versions disponibles ainsi que les journaux décrivant les changements apportés sont disponibles depuis [lien de la pages](https://meek-moonbeam-d2cb3d.netlify.app/)
+Les versions disponibles ainsi que les journaux décrivant les changements apportés sont disponibles depuis [lien du sites ](https://meek-moonbeam-d2cb3d.netlify.app/)
 
 
 
