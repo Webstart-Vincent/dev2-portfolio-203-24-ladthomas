@@ -1,5 +1,7 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
+import { CldImage } from 'next-cloudinary';
 
 export default function Home() {
     return ( 
@@ -23,7 +25,12 @@ export default function Home() {
           <Link href='/works/'>
 
             <div class="items-center justify-center flex m-2 rounded-xl"> 
-            <Image src="/images/BehanceTravel1.png" width={300} height={200}/>
+            <CldImage
+                                width="300"
+                                height="200"
+                                src="portfolio/qihkvhxy8s1e3mwa9fhe"
+                                alt="detail-travaux"
+                            />
             </div>
             </Link>
             <p className="text-center text-white font-Jost-ExtraBold">Browse Service</p>
