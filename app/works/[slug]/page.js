@@ -4,6 +4,11 @@ import dbConnect from '@/app/lib/mongoose';
 import Image from 'next/image';
 import 'tailwindcss/tailwind.css';
 
+async function fetchWork(slug) {
+  await dbConnect();
+  const work = await WorkModel.findOne({ slug });
+  return work;
+}
 
 export async function generateStaticParams() {
   await dbConnect();
@@ -18,19 +23,22 @@ export async function generateMetadata({ params }) {
   const work = await fetchWork(slug);
 
   if (!work) {
-      return notFound();
+    return {
+      notFound: true,
+    };
   }
 
   return {
+    title: work.title_seo,
+    description: work.description_seo,
+    openGraph: {
       title: work.title_seo,
       description: work.description_seo,
-      openGraph: {
-          title: work.title_seo,
-          description: work.description_seo,
-          type: 'website'
-      }
+      type: 'website',
+    },
   };
-}  
+}
+
 const Page = async ({ params }) => {
   await dbConnect();
   const { slug } = params;
@@ -42,8 +50,6 @@ const Page = async ({ params }) => {
         <h1 className="text-2xl font-bold">Work not found</h1>
       </div>
     );
-
-    
   }
 
   return (
